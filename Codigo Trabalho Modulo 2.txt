@@ -1,0 +1,1449 @@
+Index.html
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Home - RCA Soluções Administrativas</title>
+        <link rel="stylesheet" href="/css/estilo.css" />
+    </head>
+
+    <body>
+        <!--Criação do Cabeçalho-->
+        <div class="barra">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" href="/Views/index.html">
+                        <img src="../Imagem/logo.jpg" alt="Admi" height="70" />
+                    </a>   
+                </div>
+                <div class="nome-marca">
+                     <h1>RCA - Soluções Administrativas </h1>
+                </div>
+
+                <div>
+                    <ul class=" nav navbar-nav links-do-menu">
+                        <li><a href="/Views/index.html">Home</a></li>
+                        <li>
+                            <a href="/Cadastro/Listagem.html">Cadastro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <!--Descrição-->
+        <div class="container">
+            <div class="textoinicial">
+                <h2>Empresa simbolo em administração de Condominios</h2>
+                <img src="../Imagem/condominio.jpg" alt="" height="300" />
+                <p>
+                    A <strong>RCA - Soluções Administrativa</strong> que existe há mais de 20 (vinte) anos em adminitração de condominios residenciais. Nos estamos sempre a procura de melhora para o dialogo os moradores e sindicos. Em toda Minas Gerais.
+                </p>
+            </div>
+
+                <hr />
+
+                <!--Rodapé-->
+                <div class="rodape">
+                    <footer>
+                            <span>&copy; 2020 - Sálvio Desenvolvedor</span>
+                    </footer>
+                </div>
+            
+        </div>
+    </body>
+</html>
+
+
+
+Listagem.html
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Listagem cadastro - RCA Soluções Administrativas</title>
+        <link rel="stylesheet" href="/css/estilo.css" />
+    </head>
+
+    <body>
+        <!--Criação do Cabeçalho-->
+        <div class="barra">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" href="/Views/index.html">
+                        <img src="../Imagem/logo.jpg" alt="Admi" height="70" />
+                    </a>
+                </div>
+                <div class="nome-marca">
+                    <h1>RCA - Soluções Administrativas </h1>
+                </div>
+
+                <div>
+                    <ul class=" nav navbar-nav links-do-menu">
+                        <li><a href="/Views/index.html">Home</a></li>
+                        <li>
+                            <a href="/Cadastro/Listagem.html">Cadastro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <!--Criação tabela de cadastro-->
+        <div class="container">
+            <h2>Síndicos Cadastrados</h2>
+
+            <p><a href="/Cadastro/Inserir.html">Inserir</a></p>
+            
+            <hr />
+            <table class="tabela">
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        CPF
+                    </th>
+                    <th>
+                        RG
+                    </th>
+                    <th>
+                        Endereço
+                    </th>
+                    <th>
+                        Bairro
+                    </th>
+                    <th>
+                        Número
+                    </th>
+                    <th>
+                        Complemento
+                    </th>
+                    <th>
+                        Telefone
+                    </th>
+                    <th>
+                        Celular
+                    </th>
+                    <th>
+                        Profissão
+                    </th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Data de Nascimento
+                    </th>
+                    <th>
+                        CEP
+                    </th>
+                    <th>
+                        Cidade
+                    </th>
+                    <th>
+                        Estado
+                    </th>
+                    <th></th>
+                </tr>
+                <!--Sindico 1-->
+                <tr>
+                    <td>
+                        Amanda Soares Silva
+                    </td>
+                    <td>
+                        969.636.858-78
+                    </td>
+                    <td></td>
+                    <td>
+                        Rua Autorama
+                    </td>
+                    <td>
+                        Capelinha
+                    </td>
+                    <td>
+                        51
+                    </td>
+                    <td></td>
+                    <td>
+                        (38)3696-8587
+                    </td>
+                    <td></td>
+                    <td> </td>
+                    <td>
+                        amanda_ss@yahoo.com.br
+                    </td>
+                    <td>
+                        04/05/1995
+                    </td>
+                    <td>
+                        65.888-020
+                    </td>
+                    <td>
+                        Almenara
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--sindico 2-->
+                <tr>
+                    <td>
+                        Ananias Domingos
+                    </td>
+                    <td>
+                        785.985.777-41
+                    </td>
+                    <td></td>
+                    <td>
+                        Rua Panorama
+                    </td>
+                    <td>
+                        Centro
+                    </td>
+                    <td>
+                        1010
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        (35)9999-0101
+                    </td>
+                    <td></td>
+                    <td>
+                        ananiapequeno@hotmail.com.br
+                    </td>
+                    <td>
+                        24/10/1985
+                    </td>
+                    <td>
+                        95.987-000
+                    </td>
+                    <td>
+                        Passos
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--Sindico 3-->
+                <tr>
+                    <td>
+                        Carlos Eduardo Nogueira
+                    </td>
+                    <td>
+                        155.466.855-84
+                    </td>
+                    <td></td>
+                    <td>
+                        Rua Goias
+                    </td>
+                    <td>
+                        Esplanada
+                    </td>
+                    <td>
+                        958
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        (37)9878-9878
+                    </td>
+                    <td></td>
+                    <td>
+                        kd25@hotmail.com.br
+                    </td>
+                    <td>
+                        20/02/1990
+                    </td>
+                    <td>
+                        88.777-010
+                    </td>
+                    <td>
+                        Divinópolis
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--Sindico4-->
+                <tr>
+                    <td>
+                        Denis Sweizer
+                    </td>
+                    <td>
+                        012.321.654-21
+                    </td>
+                    <td></td>
+                    <td>
+                        Rua Xavante
+                    </td>
+                    <td>
+                        Centro
+                    </td>
+                    <td>
+                        365
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        sweizerdn@yahoo.com.br
+                    </td>
+                    <td>
+                        26/10/1996
+                    </td>
+                    <td>
+                        55.854-654
+                    </td>
+                    <td>
+                        Para de Minas
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--sindico5-->
+                <tr>
+                    <td>
+                        Edson Cunha
+                    </td>
+                    <td>
+                        444.565.312-44
+                    </td>
+                    <td></td>
+                    <td>
+                        Rua Gormes da Costa
+                    </td>
+                    <td>
+                        Jardinópolis
+                    </td>
+                    <td>
+                        84
+                    </td>
+                    <td></td>
+                    <td>
+                        (37)3222-6551
+                    </td>
+                    <td> </td>
+                    <td></td>
+                    <td>
+                        edson01@gmail.com.br
+                    </td>
+                    <td>
+                        11/09/1987
+                    </td>
+                    <td>
+                        35.452-555
+                    </td>
+                    <td>
+                        São Gonçalo do Para
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--Sindico6-->
+                <tr>
+                    <td>
+                        Fagundes Varela
+                    </td>
+                    <td>
+                        014.753.951-61
+                    </td>
+                    <td></td>
+                    <td>
+                        Rua Inhazinha Epifânio
+                    </td>
+                    <td>
+                        Campeiro
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td></td>
+                    <td>
+                        (31)3636-4141
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        fagundesv@yahoo.com.br
+                    </td>
+                    <td>
+                        28/11/1997
+                    </td>
+                    <td>
+                        45.454-000
+                    </td>
+                    <td>
+                        Belo Horizonte
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--sindico7-->
+                <tr>
+                    <td>
+                        Graziela de Oliveira
+                    </td>
+                    <td>
+                        948.503.226-19
+                    </td>
+                    <td></td>
+                    <td>
+                        Rua Espirito Santo
+                    </td>
+                    <td>
+                        Manoel Gomes
+                    </td>
+                    <td>
+                        401
+                    </td>
+                    <td></td>
+                    <td>
+                        (37)3624-8574
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        grazeol@yahoo.com.br
+                    </td>
+                    <td>
+                        02/01/1982
+                    </td>
+                    <td>
+                        35.500-027
+                    </td>
+                    <td>
+                        Divinópolis
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--Sindico8-->
+                <tr>
+                    <td>
+                        Hilton Gontigo
+                    </td>
+                    <td>
+                        800.444.777-010
+                    </td>
+                    <td></td>
+                    <td>
+                        Rua Onze de Outubro
+                    </td>
+                    <td>
+                        Centro
+                    </td>
+                    <td>
+                        200
+                    </td>
+                    <td></td>
+                    <td>
+                        (85)7414-1471
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        hg757@bool.com.br
+                    </td>
+                    <td>
+                        29/09/1991
+                    </td>
+                    <td>
+                        44.333-452
+                    </td>
+                    <td>
+                        Poças de Caldas
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--Sindico9-->
+                <tr>
+                    <td>
+                        Jonas Da Mata
+                    </td>
+                    <td>
+                        022.033.155-63
+                    </td>
+                    <td> </td>
+                    <td>
+                        Rua Vincentina Gomes
+                    </td>
+                    <td>
+                        Nova Fortaleza
+                    </td>
+                    <td>
+                        770
+                    </td>
+                    <td> </td>
+                    <td>
+                        (45)1111-2222
+                    </td>
+                    <td>
+                        (11)4444-5555
+                    </td>
+                    <td></td>
+                    <td>
+                        jotag@yhotmail.com.br
+                    </td>
+                    <td>
+                        15/04/1974
+                    </td>
+                    <td>
+                        12.324-45
+                    </td>
+                    <td>
+                        Ibiá
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--sindico 10-->
+                <tr>
+                    <td>
+                        Lucas Luco
+                    </td>
+                    <td>
+                        122.444.777-03
+                    </td>
+                    <td></td>
+                    <td>
+                        Rua Braulina Michelin
+                    </td>
+                    <td>
+                        Nascente do Rio
+                    </td>
+                    <td>
+                        131
+                    </td>
+                    <td></td>
+                    <td>
+                        (55)2211-4455
+                    </td>
+                    <td>
+                        (33)4455-6699
+                    </td>
+                    <td></td>
+                    <td>
+                        lucol@gmail.com.br
+                    </td>
+                    <td>
+                        18/08/1965
+                    </td>
+                    <td>
+                        33.667-44
+                    </td>
+                    <td>
+                        Rio Parnaraíba
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--Sindico 11-->
+                <tr>
+                    <td>
+                        Marco Antonio
+                    </td>
+                    <td>
+                        887.778.887-44
+                    </td>
+                    <td></td>
+                    <td>
+                        Rua da Cunha
+                    </td>
+                    <td>
+                        Jardinópolis
+                    </td>
+                    <td>
+                        45
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        tonho@yahoo.com.br
+                    </td>
+                    <td>
+                        04/12/1983
+                    </td>
+                    <td>
+                        38.844-74
+                    </td>
+                    <td>
+                        Divinópolis
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--Sindico 12-->
+                <tr>
+                    <td>
+                        Marco Paulo Azevedo
+                    </td>
+                    <td>
+                        899.655.988.33
+                    </td>
+                    <td></td>
+                    <td>
+                        Rua Centralina
+                    </td>
+                    <td>
+                        Serra Azul
+                    </td>
+                    <td>
+                        633
+                    </td>
+                    <td></td>
+                    <td> </td>
+                    <td>
+                        (44)0002-3300
+                    </td>
+                    <td></td>
+                    <td>
+                        azedinho@bol.com.br
+                    </td>
+                    <td>
+                        25/12/1981
+                    </td>
+                    <td>
+                        45.600-001
+                    </td>
+                    <td>
+                        Oliveira
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--sindico 13-->
+                <tr>
+                    <td>
+                        Sálvio Júnior
+                    </td>
+                    <td>
+                        007.005.003-01
+                    </td>
+                    <td></td>
+                    <td>
+                        Avenida Xisto I
+                    </td>
+                    <td>
+                        São Paulo
+                    </td>
+                    <td>
+                        454
+                    </td>
+                    <td> </td>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        sj-2@gmail.com.br
+                    </td>
+                    <td>
+                        01/12/1989
+                    </td>
+                    <td>
+                        02.321-050
+                    </td>
+                    <td>
+                        Curvelo
+                    </td>
+                    <td> </td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <!--sindico 14-->
+                <tr>
+                    <td>
+                        Vicentina Barbosa
+                    </td>
+                    <td>
+                        444.444.555-00
+                    </td>
+                    <td> </td>
+                    <td>
+                        Rua Salinte
+                    </td>
+                    <td>
+                        Morro do Ferro
+                    </td>
+                    <td>
+                        777
+                    </td>
+                    <td>
+                        ap. 01
+                    </td>
+                    <td>
+                        (88)0120-3012
+                    </td>
+                    <td> </td>
+                    <td>
+                        Vereador
+                    </td>
+                    <td>
+                        barbosa@yahoo.com.br
+                    </td>
+                    <td>
+                        01/04/1993
+                    </td>
+                    <td>
+                        75.451-010
+                    </td>
+                    <td>
+                        Carmo do Cajuru
+                    </td>
+                    <td> </td>
+                    <td>
+                        <a href="/Cadastro/Editar.html">Editar</a> 
+                        <a href="/Cadastro/Excluir.html">Excluir</a>
+                    </td>
+                </tr>
+            </table>
+
+            <hr />
+
+            <!--Rodapé-->
+            <div class="rodape">
+                <footer>
+                        <span>&copy; 2020 - Sálvio Desenvolvedor</span>      
+                </footer>
+            </div>
+
+        </div>
+
+    </body>
+</html>
+
+
+
+excluir.html
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Excluir dados - RCA Soluções Administrativas</title>
+        <link rel="stylesheet" href="/css/estilo.css" />
+    </head>
+
+    <body>
+        <!--Criação do Cabeçalho-->
+        <div class="barra">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" href="/Views/index.html">
+                        <img src="../Imagem/logo.jpg" alt="Admi" height="70" />
+                    </a>
+                </div>
+                <div class="nome-marca">
+                    <h1>RCA - Soluções Administrativas </h1>
+                </div>
+
+                <div>
+                    <ul class=" nav navbar-nav links-do-menu">
+                        <li><a href="/Views/index.html">Home</a></li>
+                        <li>
+                            <a href="/Cadastro/Listagem.html">Cadastro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <!--Exclusao-->
+        <div class="container">   
+                <h2>Exclusão de clientes</h2>
+                <div class="excluir">
+                    <img src="/Imagem/Excluir.png" height="50" />
+                </div>
+
+            <hr />
+
+            <div>
+                <h4>Sindico:</h4>
+
+                <dl class="dl-horizontal">
+                    <dt>Nome:</dt>
+                    <dd>Jonas da Mata</dd>
+
+                    <dt>CPF:</dt>
+                    <dd>022.033.155-63</dd>
+
+                    <dt>RG:</dt>
+                    <dd></dd>
+
+                    <dt>Endereço:</dt>
+                    <dd>Rua Vincentina Gomes</dd>
+
+                    <dt>Bairro:</dt>
+                    <dd>Nova Fortaleza</dd>
+
+                    <dt>Numero:</dt>
+                    <dd>770</dd>
+
+                    <dt>Complemento:</dt>
+                    <dd></dd>
+
+                    <dt>Telefone:</dt>
+                    <dd>(45)1111-2222</dd>
+
+                    <dt>Celular:</dt>
+                    <dd>(11)4444-5555</dd>
+
+                    <dt>Celular 2:</dt>
+                    <dd></dd>
+
+                    <dt>Profissão:</dt>
+                    <dd></dd>
+
+                    <dt>E mail:</dt>
+                    <dd>jota@hotmail.com.br</dd>
+
+                    <dt>Data de nascimento:</dt>
+                    <dd>15/04/1974</dd>
+
+                    <dt>CEP:</dt>
+                    <dd>12.324-45</dd>
+
+                    <dt>Estado:</dt>
+                    <dd>MINAS GERAIS</dd>
+
+                    <dt>Cidade:</dt>
+                    <dd>Ibiá</dd>
+
+                </dl>
+
+                <br />
+
+                <!--botoes excluir-->     
+                    <form action="/Cadastro/Excluir.html" method="post">
+                        <div>
+                            <input value="Excluir" type="submit" />
+                                <a href="/Cadastro/Listagem.html">Retornar</a>                       
+                        </div>
+                    </form>          
+            </div>
+
+            <br />
+
+            <hr />
+            <!--Rodapé-->
+            <div class="rodape">
+                <footer>                 
+                        <span>&copy; 2020 - Sálvio Desenvolvedor</span>
+                </footer>
+            </div>
+        </div>
+
+    </body>
+
+</html>
+
+
+Editar.html
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Edição de cadastro - RCA Soluções Administrativas</title>
+        <link rel="stylesheet" href="/css/estilo.css" />
+    </head>
+
+    <body>
+        <!--Criação do Cabeçalho-->
+        <div class="barra">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" href="/Views/index.html">
+                        <img src="../Imagem/logo.jpg" alt="Admi" height="70" />
+                    </a>
+                </div>
+                <div class="nome-marca">
+                    <h1>RCA - Soluções Administrativas </h1>
+                </div>
+
+                <div>
+                    <ul class=" nav navbar-nav links-do-menu">
+                        <li><a href="/Views/index.html">Home</a></li>
+                        <li>
+                            <a href="/Cadastro/Listagem.html">Cadastro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <!--Edição cadastro-->
+        <div class="container">
+            <h2>Editar Cadastro</h2>
+            <div class="excluir">
+                <img src="/Imagem/Edição.png" height="50" />
+            </div>
+
+            <hr />
+
+            <form action="/Cadastro/Editar.html" method="post">
+                <div>
+                    <label>Nome:</label>
+                    <div>
+                        <input id="nome" name="nome" type="text" value="Jonas da Mata" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>CPF:</label>
+                    <div>
+                        <input id="cpf" name="cpf" type="text" value="022.033.155-63" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>RG:</label>
+                    <div>
+                        <input id="rg" name="rg" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Endereço:</label>
+                    <div>
+                        <input id="endereco" name="endereco" type="text" value="Rua Vincentina Gomes" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Bairro:</label>
+                    <div>
+                        <input id="bairro" name="bairro" type="text" value="Nova Fortaleza" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Número:</label>
+                    <div>
+                        <input id="numero" name="numero" type="text" value="770" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Complemento:</label>
+                    <div>
+                        <input id="complemento" name="complemento" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Telefone:</label>
+                    <div>
+                        <input id="telefone" name="telefone" type="text" value="(45)1111-2222" />
+                    </div>
+                </div>
+
+
+                <div>
+                    <label>Celular:</label>
+                    <div>
+                        <input id="celular" name="celular" type="text" value="(11)4444-5555" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Celular 2:</label>
+                    <div>
+                        <input id="celular2" name="celular2" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Profissão:</label>
+                    <div>
+                        <input id="profissão" name="profissão" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Email:</label>
+                    <div>
+                        <input id="email" name="email" type="text" value="jota@hotmail.com.br" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Data de nascimento:</label>
+                    <div>
+                        <input id="datadenascimento" name="datadenascimento" type="datetime" value="15/04/1974" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>CEP:</label>
+                    <div>
+                        <input id="cep" name="cep" type="text" value="12.324-45" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Estado:</label>
+                    <div>
+                        <select id="ufEstado" name="ufEstado">
+                            <option value="">-selecione um estado-</option>
+
+                            <option value="AC">ACRE</option>
+                            <option value="AL">ALAGOAS</option>
+                            <option value="AM">AMAZONAS</option>
+                            <option value="AP">AMAPÁ</option>
+                            <option value="BA">BAHIA</option>
+                            <option value="CE">CEARA</option>
+                            <option value="DF">DISTRITO FEDERAL</option>
+                            <option value="ES">ESPIRITO SANTO</option>
+                            <option value="GO">GOIAS</option>
+                            <option value="MA">MARANHÃO</option>
+                            <option selected="selected" value="MG">MINAS GERAIS</option>
+                            <option value="MT">MATO GROSSO</option>
+                            <option value="MS">MATO GROSSO DO SUL</option>
+                            <option value="PA">PARÁ</option>
+                            <option value="PB">PARAÍBA</option>
+                            <option value="PE">PERNAMBUCO</option>
+                            <option value="PI">PIAUÍ</option>
+                            <option value="PR">PARANÁ</option>
+                            <option value="RJ">RIO DE JANEIRO</option>
+                            <option value="RN">RIO GRANDE DO NORTE</option>
+                            <option value="RO">RONDONIA</option>
+                            <option value="RR">RORAIMA</option>
+                            <option value="RS">RIO GRANDE DO SUL</option>
+                            <option value="SC">SANTA CATARINA</option>
+                            <option value="SE">-SERGIPE</option>
+                            <option value="SP">SÃO PAULO</option>
+                            <option value="TO">TOCANTIS</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label>Cidade:</label>
+                    <div>
+                        <select name="idCidade" id="idCidade">
+                            <option value="">-selecione uma cidade-</option>
+
+                            <option value="111">Divinópolis</option>
+                            <option value="112">Rio Parnaraíba</option>
+                            <option value="113">Oliveira</option>
+                            <option value="114">Belo Horizonte</option>
+                            <option value="115">Carmo do Cajuru</option>
+                            <option value="116">Curvelo</option>
+                            <option value="117">Poços de Caldas</option>
+                            <option value="118">São Gonçalo do Pará</option>
+                            <option value="119">Passos</option>
+                            <option value="120">Almenara</option>
+                            <option value="121">Para de Minas</option>
+                            <option value="122">Itaúna</option>
+                            <option value="123">Formiga</option>
+                            <option value="124">Capitólio</option>
+                            <option selected="selected" value="125">Ibiá</option>
+                            <option value="126">Conceição do Pará</option>
+                            <option value="127">Nova Serrana</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+<br />
+            <form action="/Cadastro/Excluir.html" method="post">
+                <div>
+                    <input type="submit" value="Salvar" />
+                    <a href="/Cadastro/Listagem.html">Retornar</a>
+                </div>
+            </form>
+        </div>
+            <hr />
+
+            <!--Rodapé-->
+            <div class="rodape">
+                <footer>
+                    <span>&copy; 2020 - Sálvio Desenvolvedor</span>
+                </footer>
+            </div>
+
+    </body>
+</html>
+
+
+
+Inserir.html
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Inserir Cadastro - RCA Soluções Administrativas</title>
+        <link rel="stylesheet" href="/css/estilo.css" />
+    </head>
+
+    <body>
+        <!--Criação do Cabeçalho-->
+        <div class="barra">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" href="/Views/index.html">
+                        <img src="../Imagem/logo.jpg" alt="Admi" height="70" />
+                    </a>
+                </div>
+                <div class="nome-marca">
+                    <h1>RCA - Soluções Administrativas </h1>
+                </div>
+
+                <div>
+                    <ul class=" nav navbar-nav links-do-menu">
+                        <li><a href="/Views/index.html">Home</a></li>
+                        <li>
+                            <a href="/Cadastro/Listagem.html">Cadastro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <!--inserção de Sindicos-->
+        <div class="container">
+            <h2>Inserir Cadastro de Síndico</h2>
+            <div class="excluir">
+                <img src="/Imagem/Salvar.png" height="50" />
+            </div>
+
+            <hr />
+            <form action="/Cadastro/Inserir.html" method="post">
+                <div>
+                    <label>Nome:</label>
+                    <div>
+                        <input id="nome" name="nome" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>CPF:</label>
+                    <div>
+                        <input id="cpf" name="cpf" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>RG:</label>
+                    <div>
+                        <input id="rg" name="rg" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Endereço:</label>
+                    <div>
+                        <input id="endereco" name="endereco" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Bairro:</label>
+                    <div>
+                        <input id="bairro" name="bairro" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Número:</label>
+                    <div>
+                        <input id="numero" name="numero" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Complemento:</label>
+                    <div>
+                        <input id="complemento" name="complemento" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Telefone:</label>
+                    <div>
+                        <input id="telefone" name="telefone" type="text" value="" />
+                    </div>
+                </div>
+
+
+                <div>
+                    <label>Celular:</label>
+                    <div>
+                        <input id="celular" name="celular" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Celular 2:</label>
+                    <div>
+                        <input id="celular2" name="celular2" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Profissão:</label>
+                    <div>
+                        <input id="profissão" name="profissão" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Email:</label>
+                    <div>
+                        <input id="email" name="email" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Data de nascimento:</label>
+                    <div>
+                        <input id="datadenascimento" name="datadenascimento" type="datetime" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>CEP:</label>
+                    <div>
+                        <input id="cep" name="cep" type="text" value="" />
+                    </div>
+                </div>
+
+                <div>
+                    <label>Estado:</label>
+                    <div>
+                        <select id="ufEstado" name="ufEstado">
+                            <option value="">-selecione um estado-</option>
+
+                            <option value="AC">ACRE</option>
+                            <option value="AL">ALAGOAS</option>
+                            <option value="AM">AMAZONAS</option>
+                            <option value="AP">AMAPÁ</option>
+                            <option value="BA">BAHIA</option>
+                            <option value="CE">CEARA</option>
+                            <option value="DF">DISTRITO FEDERAL</option>
+                            <option value="ES">ESPIRITO SANTO</option>
+                            <option value="GO">GOIAS</option>
+                            <option value="MA">MARANHÃO</option>
+                            <option value="MG">MINAS GERAIS</option>
+                            <option value="MT">MATO GROSSO</option>
+                            <option value="MS">MATO GROSSO DO SUL</option>
+                            <option value="PA">PARÁ</option>
+                            <option value="PB">PARAÍBA</option>
+                            <option value="PE">PERNAMBUCO</option>
+                            <option value="PI">PIAUÍ</option>
+                            <option value="PR">PARANÁ</option>
+                            <option value="RJ">RIO DE JANEIRO</option>
+                            <option value="RN">RIO GRANDE DO NORTE</option>
+                            <option value="RO">RONDONIA</option>
+                            <option value="RR">RORAIMA</option>
+                            <option value="RS">RIO GRANDE DO SUL</option>
+                            <option value="SC">SANTA CATARINA</option>
+                            <option value="SE">-SERGIPE</option>
+                            <option value="SP">SÃO PAULO</option>
+                            <option value="TO">TOCANTIS</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label>Cidade:</label>
+                    <div>
+                        <select name="idCidade" id="idCidade">
+                            <option value="">-selecione uma cidade-</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+      
+
+        <br/>
+
+            <form action="/Cadastro/Inserir.html" method="post">
+                <div>
+                    <input type="submit" value="Salvar" />
+                    <a href="/Cadastro/Listagem.html">Retornar</a>
+                </div>
+            </form>
+
+        <hr />
+
+        <!--Rodapé-->
+        <div class="rodape">
+            <footer>
+                    <span>&copy; 2020 - Sálvio Desenvolvedor</span>
+            </footer>
+        </div>
+
+
+    </body>
+</html>
+
+
+estilo.css
+
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+body{
+    margin-top: 10px;
+    color: #333;
+}
+
+.excluir{
+    float:none;
+    padding: 0 1200px;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 0 15px;
+}
+
+.nav {
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+}
+
+.nav > li > a {
+    padding: 5px 15px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.nome-marca{
+    float:none;
+    line-height: 70px;
+    text-decoration: none;
+    
+}
+
+.navbar-nav > li {
+    float: left;
+}
+
+.navbar-nav > li > a {
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.container {
+    clear: both;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.barra {
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 5px solid #000000;
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    height: 110px;
+    background-color: #eeeeee;
+}
+
+.links-do-menu li a {
+    transition: all 0.3s ease;
+    color: #073f50 !important;
+}
+
+ .links-do-menu li a:hover {
+     color: #900603 !important;
+     background-color: #d3d2d2;
+  }
+
+ .textoinicial p{
+     padding: 10px 30px;
+     font-size: 21px;
+     font-weight: 300;
+     line-height: 1.4;
+ }
+ edu br
+table.tabela > tfoot > tr > th,
+table.tabela > thead > tr > td,
+table.tabela > tbody > tr > td,
+table.tabela > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.4;
+    vertical-align: top;
+    border-top: 2px solid #ddd;
+    font-size:10px;
+}
+
+table.tabela > tr > th {
+    font-size: 14px;
+}
+
+
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+.rodape footer{
+    background: #eeeeee;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+    font-weight:100;
+}
+
